@@ -1,0 +1,127 @@
+body {
+    font-family: 'Comic Sans MS', cursive; /* Change font family to Comic Sans MS */
+    background-color: #ffefef; /* Light pink */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 58px;
+    color: #ff0066; /* Pink */
+    margin-bottom: 10px;
+}
+
+header p {
+    text-align: center;
+    font-size: 28px;
+    color: #ff6666; /* Lighter pink */
+}
+
+/* Position the "No" button absolutely within body */
+#noButton {
+    background-color: #f0657a;
+    position: absolute;
+    left: 750px;
+    top: 511.2px;
+    transition: 0.3s;
+    /* Smooth movement */
+}
+
+#yesButton {
+    background-color: #57da6d;
+    position: absolute;
+    margin-right: 150px;
+    /* Smooth movement */
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    /* optional: adds some space between the buttons */
+}
+
+.btn {
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.5s;
+}
+
+#yesButton:hover {
+    background-color: #3d9d3d;
+}
+
+#img1 {
+    position: relative;
+    display: block;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img2 {
+    width: 17rem; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 60px; /* Adjust the top position */
+    left: 30px; /* Adjust the left position */
+}
+
+#img3 {
+    width: 15rem; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 30px; /* Adjust the top position */
+    left: 1150px; /* Adjust the left position */
+}
+
+#img4 {
+    width: 18rem; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top:480px; /* Adjust the top position */
+    right: 0px; /* Adjust the left position */
+}
+
+#img5 {
+    width: 13rem; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 410px; /* Adjust the top position */
+    left: 10px; /* Adjust the left position */
+}

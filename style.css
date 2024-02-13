@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffd8d8; /* Light pink */
+    margin: 0;
+    padding: 0;
+}
+
+  /* Container Styles */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px 120px 60px 120px;
+    background-color: #ffffff; /* White */
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+  /* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #e1306c; /* Red-pink */
+}
+.subtitle {
+    font-size: 20px;
+    font-style: italic;
+    color: #932449;
+}
+
+p2 {
+    font-size: 40px;
+    color: #de0606;
+}
+
+.main-image {
+    width: 27rem; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+  /* Button Styles */
+.btn {
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff6b8b; /* Pink */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e1306c; /* Light red-pink */
+}
+
+  /* Form Styles */
+form {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    margin-bottom: 10px;
+    border: 2px solid #ff6b8b; /* Pink */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff6b8b; /* Pink */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #e1306c; /* Light red-pink */
+}
+
+.additional-image {
+    width: 25rem; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: absolute;
+    top: 200px; /* Adjust the top position */
+    left: 10px; /* Adjust the left position */
+}
+
+.additional-image:nth-of-type(2) {
+    top: 310px; /* Adjust the top position for the second additional image */
+    left: 980px;
+    width: 21rem;
+    height: 18rem;
+}
+
+.additional-image:nth-of-type(3) {
+    top: 280px; /* Adjust the top position for the third additional image */
+    left: 50px; /* Adjust the right position */
+}

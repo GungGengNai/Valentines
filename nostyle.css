@@ -1,0 +1,25 @@
+body {
+    background-color: #381810; /* Bright orange */
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue';
+    color: #FFFFFF; /* White text */
+}
+
+.container {
+    width: 80%;
+    margin: 250px auto;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(254, 68, 0);
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #f43124;
+    font-size: 4em;
+    margin-bottom: 40px;
+}
